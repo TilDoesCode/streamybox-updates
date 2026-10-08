@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "channel": "system",
+  "device": "rk3576_rock_4d",
+  "updates": [],
+  "installable": false,
+  "notes": {
+    "de": "Derzeit ist kein Systemupdate veröffentlicht. App-Updates werden getrennt bereitgestellt.",
+    "en": "No system update is currently published. App updates are provided separately."
+  }
+}
