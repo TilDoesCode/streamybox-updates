@@ -1,7 +1,8 @@
 {
-  "commit": "de273dc36d712a7732f255d73e05ae4a0a1cbb40",
-  "versionCode": 10014,
+  "commit": "cc47150e25a862f4b9a844f57a06305436bbd3ad",
+  "versionCode": 10016,
   "packages": [
+    "dev.streamybox.launcher.debug",
     "dev.streamybox.settings",
     "dev.streamybox.keyboard",
     "dev.streamybox.profiles",

@@ -1,6 +1,14 @@
 # Published component licences
 
-Build commit: de273dc36d712a7732f255d73e05ae4a0a1cbb40
+Build commit: cc47150e25a862f4b9a844f57a06305436bbd3ad
+
+## dev.streamybox.launcher.debug
+
+GPL-3.0, Apache-2.0, OFL-1.1
+
+launcher/LICENSE and README: Arc/FLauncher provenance; Kotlin stdlib Apache-2.0; Inter font OFL-1.1; no native dependencies
+
+[Corresponding source for APK 10016](repo/dev.streamybox.launcher.debug-cc47150e25a862f4b9a844f57a06305436bbd3ad.tar.gz)
 
 ## dev.streamybox.settings
 
@@ -40,4 +48,4 @@ releaseRuntimeClasspath: AndroidX Media3/collection/annotation, Kotlin and Guava
 
 Streamybox original code: copyright Streamybox contributors, all rights reserved (no open-source licence granted). Third-party notices and licence texts are in licences/.
 
-Withheld: dev.streamybox.launcher.debug, dev.streamybox.airplay. Installed copies are retained.
+Withheld: dev.streamybox.airplay. Installed copies are retained.
