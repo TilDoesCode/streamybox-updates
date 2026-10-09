@@ -1,4 +1,4 @@
-Streamybox OS 1.1.1 – a calmer home screen.
+Streamybox OS 1.1.2 – Streamarr on board.
 
-- Every favourite now shows its name below the card, including Streamybox Store, F-Droid and Aurora Store.
-- New: Settings › Appearance › "Home: Favourites only" hides "All apps" and gives the top area more room. All apps stay in the Apps tab.
+- Streamarr comes preinstalled on new boxes and uses the Streamybox look.
+- Streamarr updates itself from the official, signed Streamarr releases – in the background like every other app, while nothing is playing.

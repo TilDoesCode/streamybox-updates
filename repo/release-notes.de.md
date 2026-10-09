@@ -1,4 +1,4 @@
-Streamybox OS 1.1.1 – eine ruhigere Startseite.
+Streamybox OS 1.1.2 – Streamarr ist an Bord.
 
-- Alle Favoriten zeigen jetzt ihren Namen unter der Karte – auch Streamybox Store, F-Droid und Aurora Store.
-- Neu: Einstellungen › Darstellung › „Startseite: Nur Favoriten“ blendet „Alle Apps“ aus und gibt dem oberen Bereich mehr Platz. Alle Apps bleiben im Tab „Apps“.
+- Streamarr ist auf neuen Boxen vorinstalliert und erscheint im Streamybox-Look.
+- Streamarr aktualisiert sich automatisch aus den offiziellen, signierten Streamarr-Releases – wie alle anderen Apps im Hintergrund, wenn nichts läuft.
