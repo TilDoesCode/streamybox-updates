@@ -1,25 +1,29 @@
-# Streamybox 1.2.0 (10018)
+# Streamybox 1.2.1 (10019)
 
 ## Deutsch
 
-Streamybox 1.2.0 – ruhiger, flüssiger, zuverlässiger.
+# Neu in Streamybox 1.2.1
 
-- Der Startbildschirm ist aufgeräumt: kein Logo mehr oben links, keine Knöpfe und Hinweise unter dem App-Namen – nur noch der große Name und das Bild der ausgewählten App.
-- Flüssigere Oberfläche: kein Neuaufbau mehr bei jedem Schritt auf dem Startbildschirm und beim Wechsel der Einstellungs-Kategorien, keine Bildschirmfotos im Hintergrund mehr während du eine App benutzt, und ein Speicherleck beim Sprach- und Profilwechsel ist behoben.
-- Neu: Einstellungen › Entwickler › Leistungsanzeige zeigt Bildrate, GPU und CPU live über jeder App.
-- Einstellungen: Die rechte Seite wechselt schon beim Durchgehen der Kategorien, Profile stehen direkt auf der Seite, der Audio-Ausgang lässt sich wählen, jede Kategorie hat ihr eigenes Symbol und die Optionen sind sofort sichtbar hinterlegt.
-- Tastatur: Eingabefelder öffnen sich zuverlässig mit der Bildschirmtastatur, auch mit Fernbedienungen, die sich als Tastatur melden; ein Zurück schließt beides sauber.
-- HOME doppelt drücken öffnet den App-Wechsler, lang drücken das Kontrollzentrum.
-- Erst mit dem neuen Systemabbild (Neuinstallation per USB): sichtbare Animation beim Verlassen einer App und HOME doppelt/lang auch mit der Fernbedienung des Fernsehers.
+- Tailscale lässt sich unter Netzwerk mit einer eigenen Karte für VPN und Benachrichtigungen vorbereiten. Hinweise helfen bei der Anmeldung per Handy oder Gerätecode.
+- Tailscale-Anmeldelinks zeigen einen QR-Code fürs Handy.
+- Diagnose kann eingefrorene Apps erfassen, ohne sie zu beenden. Fensterzustand, Protokolle und Thread-Stacks kommen in den bestehenden Bericht fürs Handy.
+- Softwareupdate: ein Knopf „Jetzt aktualisieren" bringt alle Teile von Streamybox in sicherer Reihenfolge auf den neuesten Stand; Fortschritt, Prüfen und Installieren sind klar zu sehen.
+- Ein Update bleibt nicht mehr bei 0 % stehen: Updates warten nicht mehr auf die App-Kataloge, jeder Schritt hat eine Zeitgrenze, und Fehler wie „Kein Netzwerk" lassen sich mit „Erneut versuchen" beheben.
+- Nach einem Update des Startbildschirms kehrt Streamybox auf den Startbildschirm zurück, statt in der zuletzt benutzten App zu landen.
+- Eine Ersatz-Startseite hält Einstellungen und Store erreichbar, wenn der Launcher nicht starten kann.
+- Mit dem neuen Systemabbild führen vier schnelle Zurück-Tastendrücke oder gehaltenes Zurück auch während eines Neustarts der Einstellungen zur Startseite; kurzes Zurück funktioniert wie gewohnt.
+- Nach App-Updates von Launcher und Einstellungen wird die Startseite wiederhergestellt; laufende Wiedergabe bleibt im Vordergrund.
 
 ## English
 
-Streamybox 1.2.0 – calmer, smoother, more reliable.
+# New in Streamybox 1.2.1
 
-- The home screen is decluttered: no logo in the top-left corner, no buttons or hints under the app name – just the big name and the artwork of the selected app.
-- Smoother interface: no more rebuilds on every step on the home screen or when switching Settings categories, no background screenshots while you use an app, and a memory leak on language and profile changes is fixed.
-- New: Settings › Developer › Performance display shows frame rate, GPU and CPU live above every app.
-- Settings: the right side follows as you move through the categories, profiles are listed right on the page, the audio output can be chosen, every category has its own icon and options show their background immediately.
-- Keyboard: text fields open reliably with the on-screen keyboard, also with remotes that report as a keyboard; one Back closes both cleanly.
-- Press HOME twice for the app switcher and hold it for the Control Center.
-- Only with the new system image (USB reinstall): a visible animation when you leave an app, and HOME twice/hold with the TV's own remote.
+- Network settings can prepare Tailscale with explicit VPN and notification consent. Sign-in guidance covers phone QR and device-code login.
+- Tailscale authentication links show a QR code for your phone.
+- Diagnostics can capture frozen apps while they keep running. Window state, logs and thread stacks join the existing report you can download on your phone.
+- Software Update: one "Update now" button brings every part of Streamybox up to date in a safe order; downloading, checking and installing are shown clearly.
+- An update no longer sticks at 0 %: updates no longer wait for the app catalogues, every step has a time limit, and errors such as "No network" can be fixed with "Try again".
+- After the home screen updates, Streamybox returns to the home screen instead of leaving you in the last app you used.
+- Recovery home screen keeps Settings and the Store available when the launcher cannot start.
+- With the new system image, four quick BACK presses or held BACK return home even while Settings is restarting; ordinary BACK keeps its normal behavior.
+- Launcher and Settings app updates restore the home screen automatically and preserve an active playback session.

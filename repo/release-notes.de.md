@@ -1,9 +1,11 @@
-Streamybox 1.2.0 – ruhiger, flüssiger, zuverlässiger.
+# Neu in Streamybox 1.2.1
 
-- Der Startbildschirm ist aufgeräumt: kein Logo mehr oben links, keine Knöpfe und Hinweise unter dem App-Namen – nur noch der große Name und das Bild der ausgewählten App.
-- Flüssigere Oberfläche: kein Neuaufbau mehr bei jedem Schritt auf dem Startbildschirm und beim Wechsel der Einstellungs-Kategorien, keine Bildschirmfotos im Hintergrund mehr während du eine App benutzt, und ein Speicherleck beim Sprach- und Profilwechsel ist behoben.
-- Neu: Einstellungen › Entwickler › Leistungsanzeige zeigt Bildrate, GPU und CPU live über jeder App.
-- Einstellungen: Die rechte Seite wechselt schon beim Durchgehen der Kategorien, Profile stehen direkt auf der Seite, der Audio-Ausgang lässt sich wählen, jede Kategorie hat ihr eigenes Symbol und die Optionen sind sofort sichtbar hinterlegt.
-- Tastatur: Eingabefelder öffnen sich zuverlässig mit der Bildschirmtastatur, auch mit Fernbedienungen, die sich als Tastatur melden; ein Zurück schließt beides sauber.
-- HOME doppelt drücken öffnet den App-Wechsler, lang drücken das Kontrollzentrum.
-- Erst mit dem neuen Systemabbild (Neuinstallation per USB): sichtbare Animation beim Verlassen einer App und HOME doppelt/lang auch mit der Fernbedienung des Fernsehers.
+- Tailscale lässt sich unter Netzwerk mit einer eigenen Karte für VPN und Benachrichtigungen vorbereiten. Hinweise helfen bei der Anmeldung per Handy oder Gerätecode.
+- Tailscale-Anmeldelinks zeigen einen QR-Code fürs Handy.
+- Diagnose kann eingefrorene Apps erfassen, ohne sie zu beenden. Fensterzustand, Protokolle und Thread-Stacks kommen in den bestehenden Bericht fürs Handy.
+- Softwareupdate: ein Knopf „Jetzt aktualisieren" bringt alle Teile von Streamybox in sicherer Reihenfolge auf den neuesten Stand; Fortschritt, Prüfen und Installieren sind klar zu sehen.
+- Ein Update bleibt nicht mehr bei 0 % stehen: Updates warten nicht mehr auf die App-Kataloge, jeder Schritt hat eine Zeitgrenze, und Fehler wie „Kein Netzwerk" lassen sich mit „Erneut versuchen" beheben.
+- Nach einem Update des Startbildschirms kehrt Streamybox auf den Startbildschirm zurück, statt in der zuletzt benutzten App zu landen.
+- Eine Ersatz-Startseite hält Einstellungen und Store erreichbar, wenn der Launcher nicht starten kann.
+- Mit dem neuen Systemabbild führen vier schnelle Zurück-Tastendrücke oder gehaltenes Zurück auch während eines Neustarts der Einstellungen zur Startseite; kurzes Zurück funktioniert wie gewohnt.
+- Nach App-Updates von Launcher und Einstellungen wird die Startseite wiederhergestellt; laufende Wiedergabe bleibt im Vordergrund.
