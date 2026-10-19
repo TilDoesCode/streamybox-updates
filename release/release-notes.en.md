@@ -1,6 +1,5 @@
-# New in Streamybox 1.3.0
+# New in Streamybox 1.3.1
 
-- Streamybox system components are prepared as one update and installed together during restart.
-- Software Update shows progress, the pending restart and the result after boot.
-- Automatic updates restart the box between 02:00 and 06:00 with the screen off and no playback.
-- The Store directs Streamybox components to Software Update; other apps update as usual.
+- The system image now includes the Streamybox recovery. After a reinstall, system updates also arrive through Software Update – no USB cable needed.
+- A reinstall now works from any computer: the flash kit with system image, checksums and tools is fully on GitHub.
+- Apps and settings are unchanged from 1.3.0.

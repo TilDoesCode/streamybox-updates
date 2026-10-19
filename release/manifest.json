@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "device": "rk3576_rock_4d",
-  "version": "1.3.0",
-  "versionCode": 10022,
+  "version": "1.3.1",
+  "versionCode": 10023,
   "notes": {
-    "de": "# Neu in Streamybox 1.3.0\n\n- Streamybox-Systemkomponenten werden als ein gemeinsames Update vorbereitet und erst beim Neustart zusammen installiert.\n- Softwareupdate zeigt den Fortschritt, den anstehenden Neustart und das Ergebnis nach dem Start.\n- Automatische Updates starten die Box nachts zwischen 02:00 und 06:00 neu, wenn der Bildschirm aus ist und keine Wiedergabe läuft.\n- Der Store verweist für Streamybox-Komponenten auf Softwareupdate; andere Apps bleiben wie gewohnt aktualisierbar.\n",
-    "en": "# New in Streamybox 1.3.0\n\n- Streamybox system components are prepared as one update and installed together during restart.\n- Software Update shows progress, the pending restart and the result after boot.\n- Automatic updates restart the box between 02:00 and 06:00 with the screen off and no playback.\n- The Store directs Streamybox components to Software Update; other apps update as usual.\n"
+    "de": "# Neu in Streamybox 1.3.1\n\n- Das Systemabbild bringt jetzt die Streamybox-Wiederherstellung mit. Nach einer Neuinstallation kommen auch Systemupdates über Softwareupdate – ohne USB-Kabel.\n- Die Neuinstallation geht jetzt von jedem Rechner aus: Das Flash-Paket mit Systemabbild, Prüfsummen und Werkzeugen liegt vollständig auf GitHub.\n- Apps und Einstellungen sind gegenüber 1.3.0 unverändert.\n",
+    "en": "# New in Streamybox 1.3.1\n\n- The system image now includes the Streamybox recovery. After a reinstall, system updates also arrive through Software Update – no USB cable needed.\n- A reinstall now works from any computer: the flash kit with system image, checksums and tools is fully on GitHub.\n- Apps and settings are unchanged from 1.3.0.\n"
   },
   "apps": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "package": "dev.streamybox.settings",
-      "size": 4015293
+      "size": 4016021
     },
     {
       "package": "dev.streamybox.keyboard",

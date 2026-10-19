@@ -1,19 +1,17 @@
-# Streamybox 1.3.0 (10022)
+# Streamybox 1.3.1 (10023)
 
 ## Deutsch
 
-# Neu in Streamybox 1.3.0
+# Neu in Streamybox 1.3.1
 
-- Streamybox-Systemkomponenten werden als ein gemeinsames Update vorbereitet und erst beim Neustart zusammen installiert.
-- Softwareupdate zeigt den Fortschritt, den anstehenden Neustart und das Ergebnis nach dem Start.
-- Automatische Updates starten die Box nachts zwischen 02:00 und 06:00 neu, wenn der Bildschirm aus ist und keine Wiedergabe läuft.
-- Der Store verweist für Streamybox-Komponenten auf Softwareupdate; andere Apps bleiben wie gewohnt aktualisierbar.
+- Das Systemabbild bringt jetzt die Streamybox-Wiederherstellung mit. Nach einer Neuinstallation kommen auch Systemupdates über Softwareupdate – ohne USB-Kabel.
+- Die Neuinstallation geht jetzt von jedem Rechner aus: Das Flash-Paket mit Systemabbild, Prüfsummen und Werkzeugen liegt vollständig auf GitHub.
+- Apps und Einstellungen sind gegenüber 1.3.0 unverändert.
 
 ## English
 
-# New in Streamybox 1.3.0
+# New in Streamybox 1.3.1
 
-- Streamybox system components are prepared as one update and installed together during restart.
-- Software Update shows progress, the pending restart and the result after boot.
-- Automatic updates restart the box between 02:00 and 06:00 with the screen off and no playback.
-- The Store directs Streamybox components to Software Update; other apps update as usual.
+- The system image now includes the Streamybox recovery. After a reinstall, system updates also arrive through Software Update – no USB cable needed.
+- A reinstall now works from any computer: the flash kit with system image, checksums and tools is fully on GitHub.
+- Apps and settings are unchanged from 1.3.0.
