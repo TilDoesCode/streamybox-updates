@@ -1,6 +1,6 @@
 # Published component licences
 
-Build commit: 8ae1e38742d26bd2ada31e4b29aceb446181d0b2
+Build commit: 350101122651e0b686c3d9a892103198be1306e2
 
 ## dev.streamybox.launcher.debug
 
@@ -8,9 +8,9 @@ GPL-3.0, Apache-2.0, OFL-1.1
 
 launcher/LICENSE and README: Arc/FLauncher provenance; Kotlin stdlib Apache-2.0; Inter font OFL-1.1; no native dependencies
 
-[Corresponding source for APK 10023](release/dev.streamybox.launcher.debug-8ae1e38742d26bd2ada31e4b29aceb446181d0b2.tar.gz)
+[Corresponding source for APK 10024](release/dev.streamybox.launcher.debug-350101122651e0b686c3d9a892103198be1306e2.tar.gz)
 
-[Corresponding source for APK 10022](release/dev.streamybox.launcher.debug-268fbe186eabd09cc7544ca8d9f12158e0f1d193.tar.gz)
+[Corresponding source for APK 10023](release/dev.streamybox.launcher.debug-8ae1e38742d26bd2ada31e4b29aceb446181d0b2.tar.gz)
 
 ## dev.streamybox.settings
 

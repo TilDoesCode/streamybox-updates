@@ -1,5 +1,6 @@
-# Neu in Streamybox 1.3.1
+# Neu in Streamybox 1.4.0
 
-- Das Systemabbild bringt jetzt die Streamybox-Wiederherstellung mit. Nach einer Neuinstallation kommen auch Systemupdates über Softwareupdate – ohne USB-Kabel.
-- Die Neuinstallation geht jetzt von jedem Rechner aus: Das Flash-Paket mit Systemabbild, Prüfsummen und Werkzeugen liegt vollständig auf GitHub.
-- Apps und Einstellungen sind gegenüber 1.3.0 unverändert.
+- Ton über HDMI: Android erkennt den Fernseher jetzt als Tonausgang. Die gewählte Tonausgabe bleibt auch nach einem Neustart erhalten.
+- Bild beim Start: Die Box bietet über HDMI nur noch Bildraten bis 60 Hz an. Dadurch bleibt der Bildschirm beim Einschalten an Fernsehern wie dem LG C1 nicht mehr schwarz.
+- Stabiler Start: Der UFS-Speicher wird beim Einschalten richtig zurückgesetzt. Das behebt Starts, die mit einem Neustart in den Download-Modus endeten.
+- Diese Verbesserungen stecken im Systemabbild. Für sie ist eine Neuinstallation mit dem Flash-Paket 1.4.0 nötig, ein App-Update reicht nicht.
