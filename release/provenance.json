@@ -1,0 +1,13 @@
+{
+  "commit": "268fbe186eabd09cc7544ca8d9f12158e0f1d193",
+  "versionCode": 10022,
+  "packages": [
+    "dev.streamybox.launcher.debug",
+    "dev.streamybox.settings",
+    "dev.streamybox.keyboard",
+    "dev.streamybox.profiles",
+    "dev.streamybox.remote",
+    "dev.streamybox.store",
+    "dev.streamybox.diag"
+  ]
+}
