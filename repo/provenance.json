@@ -1,6 +1,6 @@
 {
-  "commit": "815e13e7ec4b5e4cbb92da4e3bace1747dc05bfe",
-  "versionCode": 10020,
+  "commit": "f72c9ed99d628230962540a25bfa8b3c27b3bd6c",
+  "versionCode": 10021,
   "packages": [
     "dev.streamybox.launcher.debug",
     "dev.streamybox.settings",

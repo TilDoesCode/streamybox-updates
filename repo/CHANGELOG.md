@@ -1,21 +1,19 @@
-# Streamybox 1.2.2 (10020)
+# Streamybox 1.2.3 (10021)
 
 ## Deutsch
 
-# Neu in Streamybox 1.2.2
+# Neu in Streamybox 1.2.3
 
-- Die Oberfläche lässt sich getrennt von der Bildschirmauflösung einstellen: Einstellungen › Bild › Auflösung der Oberfläche. Zum Beispiel Menüs in Full HD für flüssigere Bedienung, Videos weiterhin in voller 4K-Auflösung.
-- Die UI-Skalierung bezieht sich jetzt auf die gewählte Oberflächen-Auflösung; das Layout bleibt auf jeder Stufe gleich.
-- Wird eine kleinere Bildschirmauflösung bestätigt, passt sich eine größere Oberfläche automatisch an.
-- Mit dem neuen Systemabbild laufen Apps im Vordergrund wieder auf den schnellen Prozessorkernen. Das gilt für alle Apps, auch Streaming-Apps, Jellyfin und SmartTube.
-- Mit dem neuen Systemabbild weckt der Fernseher die Box über HDMI-CEC: Fernseher einschalten oder auf den Eingang der Box wechseln genügt.
+- Softwareupdate kann künftig auch Streamybox OS selbst aktualisieren: Paket laden, Signatur prüfen, neu starten und installieren. Apps und persönliche Daten bleiben erhalten.
+- Dafür braucht die Box einmalig eine eigene Wiederherstellungsumgebung, die per USB eingerichtet wird. Bis dahin zeigt Softwareupdate die installierte Systemversion und den Hinweis zur Einrichtung.
+- Schlägt eine Systeminstallation fehl, bevor etwas geschrieben wurde, startet Streamybox mit dem bisherigen System neu und Softwareupdate erklärt, was passiert ist.
+- Die Auflösung der Oberfläche funktioniert mit allen Systemversionen.
 
 ## English
 
-# New in Streamybox 1.2.2
+# New in Streamybox 1.2.3
 
-- The interface resolution can be set separately from the screen resolution: Settings › Picture › Interface resolution. For example, menus in Full HD for smoother navigation while videos keep full 4K resolution.
-- UI scale now refers to the chosen interface resolution; the layout stays the same at every size.
-- When a smaller screen resolution is kept, a larger interface adjusts automatically.
-- With the new system image, foreground apps run on the fast CPU cores again. This applies to every app, including streaming apps, Jellyfin and SmartTube.
-- With the new system image, the TV wakes the box over HDMI-CEC: turning the TV on or switching to the box's input is enough.
+- Software Update can now also update Streamybox OS itself: download the package, check its signature, restart and install. Apps and personal data are kept.
+- This needs a one-time recovery setup on the box over USB. Until then Software Update shows the installed system version and a note about the setup.
+- If a system installation fails before anything is written, Streamybox restarts with the previous system and Software Update explains what happened.
+- The interface resolution works with every system version.

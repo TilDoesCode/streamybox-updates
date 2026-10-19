@@ -1,6 +1,6 @@
 # Streamybox updates
 
-Signed app updates only. Source repository is private. Pages: main branch, root.
+Signed app updates and OS metadata. Source repository is private. Pages: main branch, root.
 
 https://tildoescode.github.io/streamybox-updates/
 
