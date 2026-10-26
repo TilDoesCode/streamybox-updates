@@ -4,4 +4,4 @@ Signed app updates and OS metadata. Source repository is private. Pages: main br
 
 https://tildoescode.github.io/streamybox-updates/
 
-See NOTICE.md for licences. No system update is currently published.
+See NOTICE.md for licences. The OS payload is a signed GitHub Release asset; Pages serves metadata only.

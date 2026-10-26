@@ -1,6 +1,6 @@
 # Published component licences
 
-Build commit: 350101122651e0b686c3d9a892103198be1306e2
+Build commit: 5109ed32ed39c47319ef02cf510e4fab886c9cdb
 
 ## dev.streamybox.launcher.debug
 
@@ -8,9 +8,9 @@ GPL-3.0, Apache-2.0, OFL-1.1
 
 launcher/LICENSE and README: Arc/FLauncher provenance; Kotlin stdlib Apache-2.0; Inter font OFL-1.1; no native dependencies
 
-[Corresponding source for APK 10024](release/dev.streamybox.launcher.debug-350101122651e0b686c3d9a892103198be1306e2.tar.gz)
+[Corresponding source for APK 10025](release/dev.streamybox.launcher.debug-5109ed32ed39c47319ef02cf510e4fab886c9cdb.tar.gz)
 
-[Corresponding source for APK 10023](release/dev.streamybox.launcher.debug-8ae1e38742d26bd2ada31e4b29aceb446181d0b2.tar.gz)
+[Corresponding source for APK 10024](release/dev.streamybox.launcher.debug-350101122651e0b686c3d9a892103198be1306e2.tar.gz)
 
 ## dev.streamybox.settings
 
@@ -47,6 +47,10 @@ releaseRuntimeClasspath: F-Droid index/download libraries (Apache, not client GP
 Streamybox-owned (all rights reserved), third-party: Apache-2.0
 
 releaseRuntimeClasspath: AndroidX Media3/collection/annotation, Kotlin and Guava/listenablefuture Apache; no vendored native or GPL/LGPL/AGPL dependencies
+
+## Streamybox OS 1.5.0
+
+GPL/LGPL parts (AirPlay, FFmpeg, launcher, kernel modules, device tree) and upstream sources: [streamybox-os-1.5.0-source.tar.gz](https://github.com/tildoescode/streamybox-updates/releases/download/os-1.5.0/streamybox-os-1.5.0-source.tar.gz) (SHA-256 7f6b4595de124aa10ef1c9891a75867750c93cc8dfce29dbab33c69ed5e53051)
 
 Streamybox original code: copyright Streamybox contributors, all rights reserved (no open-source licence granted). Third-party notices and licence texts are in licences/.
 
