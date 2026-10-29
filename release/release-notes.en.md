@@ -1,8 +1,7 @@
-# New in Streamybox 1.5.0
+# New in Streamybox 1.6.0
 
-- Tailscale is built in: Settings › Network › Tailscale. Sign in with a QR code on your phone, also with your own server (Headscale), several accounts and a device list. A separate app and the VPN dialog are no longer needed; after a restart the box connects on its own.
-- Store reworked: a new interface that is smooth to use with the remote, reliable update detection (including Streamarr), "Update all" with progress and a failure reason per app, formatted release notes, a new icon and launch animation.
-- Profiles: Settings › Profiles has been rebuilt. Editing, colour and deleting now happen right in Settings; name input responds reliably.
-- HDMI-CEC: the box announces itself to the TV as "Streamybox".
-- The home screen shows the new app artwork right after an app update.
-- This update arrives as a system update through Settings › System › Software update, without a USB cable, if the box was installed with the 1.3.1 flash kit or newer. The box restarts into recovery once; apps, profiles and settings are kept.
+- Streamybox Player: Dolby Vision (profiles 5 and 8) plays as HDR10 on your TV. Jellyfin can hand videos to the player, and Streamarr plays its videos straight through it. The player is now part of Streamybox and is updated through Software update.
+- Surround sound: Dolby Digital, Dolby Digital Plus and Dolby TrueHD reach your TV or AV receiver unchanged when they support the format over HDMI. Otherwise, and while muted, the player outputs regular stereo/PCM.
+- HDR10: the TV now reliably switches to HDR for HDR videos from apps, without shifted colours.
+- Typing without pop-ups: Wi-Fi password, names, Bluetooth code, Tailscale server, Store search and Jellyfin sign-in are typed right on the page. The keyboard opens exactly once and no longer freezes anything.
+- This update arrives as a system update through Settings › System › Software update. The box restarts into recovery once; apps, profiles and settings are kept.

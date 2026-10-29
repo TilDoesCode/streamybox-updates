@@ -1,23 +1,21 @@
-# Streamybox 1.5.0 (10025)
+# Streamybox 1.6.0 (10032)
 
 ## Deutsch
 
-# Neu in Streamybox 1.5.0
+# Neu in Streamybox 1.6.0
 
-- Tailscale ist fest eingebaut: Einstellungen › Netzwerk › Tailscale. Anmelden per QR-Code mit dem Handy, auch mit eigenem Server (Headscale), mehrere Konten und eine Geräteliste. Eine eigene App und der VPN-Dialog sind nicht mehr nötig; nach einem Neustart verbindet sich die Box von selbst.
-- Store überarbeitet: neue Oberfläche, die sich mit der Fernbedienung flüssig steuern lässt, zuverlässige Update-Erkennung (auch für Streamarr), „Alle aktualisieren“ mit Fortschritt und Fehlergrund je App, formatierte Versionshinweise, neues Symbol und Startanimation.
-- Profile: Einstellungen › Profile ist neu aufgebaut. Bearbeiten, Farbe und Löschen laufen direkt in den Einstellungen; die Namenseingabe reagiert zuverlässig.
-- HDMI-CEC: Die Box meldet sich am Fernseher als „Streamybox“.
-- Die Startseite zeigt nach einem App-Update gleich das neue App-Bild.
-- Dieses Update kommt als Systemupdate über Einstellungen › System › Softwareupdate, ganz ohne USB-Kabel, wenn die Box mit dem Flash-Paket 1.3.1 oder neuer installiert wurde. Die Box startet dafür einmal in die Wiederherstellung neu; Apps, Profile und Einstellungen bleiben erhalten.
+- Streamybox Player: Dolby Vision (Profil 5 und 8) wird als HDR10 auf dem Fernseher wiedergegeben. Jellyfin kann Videos an den Player übergeben, Streamarr spielt seine Videos direkt über ihn ab. Der Player ist jetzt fester Teil von Streamybox und bekommt Updates über Softwareupdate.
+- Raumklang: Dolby Digital, Dolby Digital Plus und Dolby TrueHD gehen unverändert an Fernseher oder AV-Receiver, wenn diese das Format laut HDMI unterstützen. Sonst und bei stummgeschaltetem Ton spielt der Player normales Stereo/PCM.
+- HDR10: Der Fernseher schaltet auch bei HDR-Videos aus Apps zuverlässig in den HDR-Modus, ohne verschobene Farben.
+- Texteingabe ohne Popups: WLAN-Passwort, Namen, Bluetooth-Code, Tailscale-Server, Store-Suche und Jellyfin-Anmeldung tippst du direkt auf der Seite. Die Tastatur öffnet sich genau einmal und friert nichts mehr ein.
+- Dieses Update kommt als Systemupdate über Einstellungen › System › Softwareupdate. Die Box startet dafür einmal in die Wiederherstellung neu; Apps, Profile und Einstellungen bleiben erhalten.
 
 ## English
 
-# New in Streamybox 1.5.0
+# New in Streamybox 1.6.0
 
-- Tailscale is built in: Settings › Network › Tailscale. Sign in with a QR code on your phone, also with your own server (Headscale), several accounts and a device list. A separate app and the VPN dialog are no longer needed; after a restart the box connects on its own.
-- Store reworked: a new interface that is smooth to use with the remote, reliable update detection (including Streamarr), "Update all" with progress and a failure reason per app, formatted release notes, a new icon and launch animation.
-- Profiles: Settings › Profiles has been rebuilt. Editing, colour and deleting now happen right in Settings; name input responds reliably.
-- HDMI-CEC: the box announces itself to the TV as "Streamybox".
-- The home screen shows the new app artwork right after an app update.
-- This update arrives as a system update through Settings › System › Software update, without a USB cable, if the box was installed with the 1.3.1 flash kit or newer. The box restarts into recovery once; apps, profiles and settings are kept.
+- Streamybox Player: Dolby Vision (profiles 5 and 8) plays as HDR10 on your TV. Jellyfin can hand videos to the player, and Streamarr plays its videos straight through it. The player is now part of Streamybox and is updated through Software update.
+- Surround sound: Dolby Digital, Dolby Digital Plus and Dolby TrueHD reach your TV or AV receiver unchanged when they support the format over HDMI. Otherwise, and while muted, the player outputs regular stereo/PCM.
+- HDR10: the TV now reliably switches to HDR for HDR videos from apps, without shifted colours.
+- Typing without pop-ups: Wi-Fi password, names, Bluetooth code, Tailscale server, Store search and Jellyfin sign-in are typed right on the page. The keyboard opens exactly once and no longer freezes anything.
+- This update arrives as a system update through Settings › System › Software update. The box restarts into recovery once; apps, profiles and settings are kept.
