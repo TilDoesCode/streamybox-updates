@@ -1,7 +1,9 @@
-# Neu in Streamybox 1.6.0
+# Neu in Streamybox 1.6.2
 
-- Streamybox Player: Dolby Vision (Profil 5 und 8) wird als HDR10 auf dem Fernseher wiedergegeben. Jellyfin kann Videos an den Player übergeben, Streamarr spielt seine Videos direkt über ihn ab. Der Player ist jetzt fester Teil von Streamybox und bekommt Updates über Softwareupdate.
-- Raumklang: Dolby Digital, Dolby Digital Plus und Dolby TrueHD gehen unverändert an Fernseher oder AV-Receiver, wenn diese das Format laut HDMI unterstützen. Sonst und bei stummgeschaltetem Ton spielt der Player normales Stereo/PCM.
-- HDR10: Der Fernseher schaltet auch bei HDR-Videos aus Apps zuverlässig in den HDR-Modus, ohne verschobene Farben.
-- Texteingabe ohne Popups: WLAN-Passwort, Namen, Bluetooth-Code, Tailscale-Server, Store-Suche und Jellyfin-Anmeldung tippst du direkt auf der Seite. Die Tastatur öffnet sich genau einmal und friert nichts mehr ein.
+- Profile: Der Wechsel zu einem zweiten Profil scheitert nicht mehr, wenn YouTube (SmartTube) oder andere Apps getrennte Daten haben. Fehlermeldungen erklären verständlich, was passiert ist.
+- Streamarr pro Profil: eigener Login, Server und Einstellungen je Profil (Einstellungen › Profile › App-Daten pro Profil).
+- Favoriten pro Profil: Jedes Profil hat eigene Favoriten auf der Startseite, bearbeitbar unter Einstellungen › Darstellung › Favoriten, komplett mit der Fernbedienung.
+- Schneller und flüssiger: Die Startseite öffnet und erscheint nach dem Zurückkehren schneller, Menüs scrollen ruhiger, und im Hintergrund läuft deutlich weniger. Apps aus dem Store (z. B. Streamarr 0.20.1) sind gleich nach einem Update voll optimiert.
+- Streamarr 0.20.1 ist vorinstalliert bzw. kommt als Update.
 - Dieses Update kommt als Systemupdate über Einstellungen › System › Softwareupdate. Die Box startet dafür einmal in die Wiederherstellung neu; Apps, Profile und Einstellungen bleiben erhalten.
+- Bleibt der Bildschirm nach dem Neustart für das Systemupdate länger als 10 Minuten schwarz: Netzstecker 10 Sekunden ziehen und wieder einstecken – die Installation läuft danach weiter.
